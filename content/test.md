@@ -5,4 +5,4 @@ Slug: testpost
 Status: published
 Summary: A new test post.
 
-Hello World. Lets test the git webhook
+Test article to test the test blog
