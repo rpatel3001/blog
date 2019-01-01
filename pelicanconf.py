@@ -62,7 +62,7 @@ DISABLE_URL_HASH = True
 PORT = 8001
 TYPOGRIFY = True
 GOOGLE_ANALYTICS = 'UA-42154912-1'
-THEME = 'theme/Flex'
+THEME = 'themes/Flex'
 
 GOOGLE_ADSENSE = {
     'ca_id': 'ca-pub-7821329515419218',    # Your AdSense ID
