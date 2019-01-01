@@ -5,6 +5,4 @@ Slug: testpost
 Status: draft
 Summary: A new test post.
 
-Hello World
-
-Lets test the webhook
+Hello World. Lets test the webhook
