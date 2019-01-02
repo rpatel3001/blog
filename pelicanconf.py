@@ -23,6 +23,7 @@ DISQUS_SITENAME = 'rajanpatel'
 MAIN_MENU = True
 
 PATH = 'content'
+STATIC_PATHS = ['images', 'css']
 
 TIMEZONE = 'America/New_York'
 
@@ -64,6 +65,17 @@ PORT = 8001
 TYPOGRIFY = True
 GOOGLE_ANALYTICS = 'UA-42154912-1'
 THEME = 'themes/Flex'
+
+CC_LICENSE = {
+    'name': 'Creative Commons Attribution-ShareAlike',
+    'version': '4.0',
+    'slug': 'by-sa'
+}
+
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['tipue_search']
+CUSTOM_CSS = 'css/main.css'
+DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'authors', 'archives', 'search'))
 
 GOOGLE_ADSENSE = {
     'ca_id': 'ca-pub-7821329515419218',    # Your AdSense ID
