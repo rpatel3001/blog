@@ -50,6 +50,7 @@ SOCIAL = (('github', 'https://github.com/rpatel3001'),
 	  ('linkedin', 'https://linkedin.com/in/rkp8966'),
 	  ('rss', '//rajanpatel.net/blog/%s' % FEED_ALL_ATOM))
 TWITTER_USERNAME = 'rpatel3001'
+GITHUB_URL = 'https://github.com/rpatel3001'
 
 MENUITEMS = (('Archives', '%s/archives.html' % SITEURL),
              ('Categories', '%s/categories.html' % SITEURL),
