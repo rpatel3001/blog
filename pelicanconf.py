@@ -29,6 +29,8 @@ TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'en'
 
+PYGMENTS_STYLE = 'manni'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = None
@@ -73,7 +75,7 @@ CC_LICENSE = {
 }
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['tipue_search']
+PLUGINS = ['tipue_search', 'post_stats', 'related_posts', 'representative_image', 'neighbors']
 CUSTOM_CSS = 'css/main.css'
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'authors', 'archives', 'search'))
 
