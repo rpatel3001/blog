@@ -14,6 +14,8 @@ SITEDESCRIPTION ='%s\s Random Crap' % AUTHOR
 SITELOGO = SITEURL + '/images/logo.png'
 FAVICON = SITEURL + '/images/logo.png'
 
+SHOW_POST_AUTHOR = True
+
 COPYRIGHT_YEAR = 2019
 
 DEFAULT_DATE_FORMAT = '%a %B %d %Y'
@@ -32,7 +34,7 @@ DEFAULT_LANG = 'en'
 PYGMENTS_STYLE = 'manni'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
@@ -40,7 +42,6 @@ AUTHOR_FEED_RSS = None
 
 DEFAULT_METADATA = {
     'status': 'draft',
-    'author': 'Rajan Patel'
 }
 
 # Blogroll
@@ -50,8 +51,7 @@ LINKS = (('RU Interested', '%s/ru-interested' % MAINURL),)
 SOCIAL = (('github', 'https://github.com/rpatel3001'),
           ('facebook', 'https://www.facebook.com/rpatel3001'),
 	  ('twitter', 'https://twitter.com/rpatel3001'),
-	  ('linkedin', 'https://linkedin.com/in/rkp8966'),
-	  ('rss', '//rajanpatel.net/blog/%s' % FEED_ALL_ATOM))
+	  ('linkedin', 'https://linkedin.com/in/rkp8966'))
 TWITTER_USERNAME = 'rpatel3001'
 GITHUB_CORNER_URL = 'https://github.com/rpatel3001'
 
@@ -66,7 +66,7 @@ DISABLE_URL_HASH = True
 PORT = 8001
 TYPOGRIFY = True
 GOOGLE_ANALYTICS = 'UA-42154912-1'
-THEME = 'themes/Flex'
+THEME = 'theme/Flex'
 
 CC_LICENSE = {
     'name': 'Creative Commons Attribution-ShareAlike',
@@ -77,7 +77,8 @@ CC_LICENSE = {
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['tipue_search', 'post_stats', 'related_posts', 'representative_image', 'neighbors']
 CUSTOM_CSS = 'css/main.css'
-DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'authors', 'archives', 'search'))
+#DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'authors', 'archives', 'search'))
+DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'authors', 'archives'))
 
 GOOGLE_ADSENSE = {
     'ca_id': 'ca-pub-7821329515419218',    # Your AdSense ID
