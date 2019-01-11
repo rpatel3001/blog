@@ -77,8 +77,8 @@ CC_LICENSE = {
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['tipue_search', 'post_stats', 'related_posts', 'representative_image', 'neighbors']
 CUSTOM_CSS = 'css/main.css'
-#DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'authors', 'archives', 'search'))
-DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'authors', 'archives'))
+DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'authors', 'archives', 'search'))
+#DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'authors', 'archives'))
 
 GOOGLE_ADSENSE = {
     'ca_id': 'ca-pub-7821329515419218',    # Your AdSense ID
