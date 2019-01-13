@@ -1,6 +1,6 @@
 #tipue_search_results_header {
     text-align: left;
-    margin: 0 8% 2% 8%;
+    margin: 0 8% 40px 8%;
 }
 
 #tipue_search_results_title {
@@ -16,6 +16,16 @@
     margin-top: 1.55em;
 }
 
+#searchbutton {
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color: transparent;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+}
+
 #searchbox {
     background-color: #F5F4EF;
     border: 1px solid #F5F4EF;
@@ -24,6 +34,6 @@
     -webkit-border-radius: 4px 4px 4px 4px;
     height: 10px;
     padding: 4px;
-    margin: 0px 15px;
+    margin: 0px 0px;
     vertical-align: top;
 }
