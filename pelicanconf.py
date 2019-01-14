@@ -14,6 +14,8 @@ SITEDESCRIPTION ='%s\s Random Crap' % AUTHOR
 SITELOGO = SITEURL + '/images/logo.png'
 FAVICON = SITEURL + '/images/logo.png'
 
+ROBOTS = 'all'
+
 SHOW_POST_AUTHOR = True
 
 COPYRIGHT_YEAR = 2019
