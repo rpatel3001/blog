@@ -7,10 +7,10 @@ LOAD_CONTENT_CACHE = False
 AUTHOR = 'Rajan Patel'
 SITETITLE = AUTHOR
 SITESUBTITLE = 'Computer Engineering Student'
-SITENAME = '%s\'s Blog' % AUTHOR
+SITENAME = "%s's Blog" % AUTHOR
 MAINURL = 'https://rajanpatel.net'
-SITEURL = '%s/blog' % MAINURL
-SITEDESCRIPTION ='%s\s Random Crap' % AUTHOR
+SITEURL = MAINURL
+SITEDESCRIPTION ="%s's Blog" % AUTHOR
 SITELOGO = SITEURL + '/images/logo.png'
 FAVICON = SITEURL + '/images/logo.png'
 
