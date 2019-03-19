@@ -8,10 +8,10 @@ This is where I'll catalog things I have read, am reading, and will read. Please
 
 | Title | Author | Status | Description |
 | --- | --- | --- | --- |
-| The Wheel of Time | Robert Jordan | In Progress | A fantasy series which follows farm boy Rand al'Thor and his companions in the struggle of good versus evil. |
+| The Wheel of Time | Robert Jordan | Complete | A fantasy series which follows farm boy Rand al'Thor and his companions in the struggle of good versus evil. |
 | Mother of Learning | nobody103 | In Progress | Stuck in a time loop, Zorian needs to figure out how to get out, but a bigger problem looms once he does. |
 | Vacant Throne | TowerCurator | In Progress | Alyssa finds herself in a magical world when an angel panics after she alters the course of destiny. |
-| The Horrendous Imaginings | Joesph Daniel | In Progress | Despite his subpar wishgranting abilities, Judah is embroiled in mystery and adventure. |
+| The Horrendous Imaginings | Joseph Daniel | In Progress | Despite his subpar wishgranting abilities, Judah is embroiled in mystery and adventure. |
 | Worth the Candle | cthulhuraejepsen | In Progress | Inserted into a world that vaguely resembles his D&D sessions, Joon is immediately caught up in adventure |
 | Ward | Wildbow | In Progress | Sequel to Worm. Features a new protagonist and a new perspective. |
 | Twig | Wildbow | Complete | Science has diverged from our world, with a laser focus on manipulating biology, though the Academies which do research keep a tight leash on their knowledge.  |
