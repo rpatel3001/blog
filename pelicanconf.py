@@ -47,7 +47,8 @@ DEFAULT_METADATA = {
 }
 
 # Blogroll
-LINKS = (('RU Interested', '%s/ru-interested' % MAINURL),)
+LINKS = (('RU Interested', '%s/ru-interested' % MAINURL),
+         ('ESP32 Reporting', '%s/api/esp_view' % MAINURL),)
 
 # Social widget
 SOCIAL = (('github', 'https://github.com/rpatel3001'),
