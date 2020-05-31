@@ -6,19 +6,19 @@ LOAD_CONTENT_CACHE = False
 
 AUTHOR = 'Rajan Patel'
 SITETITLE = AUTHOR
-SITESUBTITLE = 'Computer Engineering Student'
+SITESUBTITLE = 'documenting my explorations'
 SITENAME = "%s's Blog" % AUTHOR
 MAINURL = 'https://rajanpatel.net'
-SITEURL = MAINURL
+BLOGURL = MAINURL + '/blog'
 SITEDESCRIPTION ="%s's Blog" % AUTHOR
-SITELOGO = SITEURL + '/images/logo.png'
-FAVICON = SITEURL + '/images/logo.png'
+SITELOGO = BLOGURL + '/images/logo.png'
+FAVICON = BLOGURL + '/images/logo.png'
 
 ROBOTS = 'all'
 
 SHOW_POST_AUTHOR = True
 
-COPYRIGHT_YEAR = 2019
+COPYRIGHT_YEAR = 2020
 
 DEFAULT_DATE_FORMAT = '%a %B %d %Y'
 
@@ -48,19 +48,20 @@ DEFAULT_METADATA = {
 
 # Blogroll
 LINKS = (('RU Interested', '%s/ru-interested' % MAINURL),
+         ('Virtual Radar', '%s/VirtualRadar' % MAINURL),
          ('ESP32 Reporting', '%s/api/esp_view' % MAINURL),)
 
 # Social widget
 SOCIAL = (('github', 'https://github.com/rpatel3001'),
-          ('facebook', 'https://www.facebook.com/rpatel3001'),
-	  ('twitter', 'https://twitter.com/rpatel3001'),
+#          ('facebook', 'https://www.facebook.com/rpatel3001'),
+#	  ('twitter', 'https://twitter.com/rpatel3001'),
 	  ('linkedin', 'https://linkedin.com/in/rkp8966'))
 TWITTER_USERNAME = 'rpatel3001'
 GITHUB_CORNER_URL = 'https://github.com/rpatel3001'
 
-MENUITEMS = (('Archives', '%s/archives.html' % SITEURL),
-             ('Categories', '%s/categories.html' % SITEURL),
-             ('Tags', '%s/tags.html' % SITEURL),)
+MENUITEMS = (('Archives', '%s/archives.html' % BLOGURL),
+             ('Categories', '%s/categories.html' % BLOGURL),
+             ('Tags', '%s/tags.html' % BLOGURL),)
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

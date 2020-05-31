@@ -2,7 +2,7 @@ Title: My Reading List
 Date: 2019-02-13
 Modified: 2019-05-03
 Tags: list
-Status: published
+Status: draft
 
 This is where I'll catalog things I have read, am reading, and will read. Please leave recommendations!
 

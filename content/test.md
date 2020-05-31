@@ -1,6 +1,6 @@
 Title: A Test Article
 Date: 2019-02-08
-Status: published
+Status: draft
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel hendrerit odio, at feugiat nulla. Morbi id lacus erat. Vestibulum placerat auctor mauris ac suscipit. Mauris vel commodo diam. Phasellus vel lacinia dolor, ut efficitur ante. Proin vulputate odio nec risus ullamcorper faucibus. Curabitur libero augue, cursus vel consequat id, condimentum volutpat enim. Quisque in turpis arcu. Integer a bibendum arcu. Suspendisse et dolor vel diam elementum mollis. Morbi eu nisl et purus molestie dictum vel ultrices purus. Quisque consequat fermentum arcu sed pulvinar. Donec vulputate volutpat nisl, ac volutpat sem condimentum nec. Cras gravida finibus tortor quis molestie. Phasellus iaculis elit rutrum risus venenatis sagittis.
 
