@@ -9,10 +9,10 @@ SITETITLE = AUTHOR
 SITESUBTITLE = 'documenting my explorations'
 SITENAME = "%s's Blog" % AUTHOR
 MAINURL = 'https://rajanpatel.net'
-BLOGURL = MAINURL + '/blog'
+SITEURL = MAINURL + '/blog'
 SITEDESCRIPTION ="%s's Blog" % AUTHOR
-SITELOGO = BLOGURL + '/images/logo.png'
-FAVICON = BLOGURL + '/images/logo.png'
+SITELOGO = SITEURL + '/images/logo.png'
+FAVICON = SITEURL + '/images/logo.png'
 
 ROBOTS = 'all'
 
@@ -59,9 +59,9 @@ SOCIAL = (('github', 'https://github.com/rpatel3001'),
 TWITTER_USERNAME = 'rpatel3001'
 GITHUB_CORNER_URL = 'https://github.com/rpatel3001'
 
-MENUITEMS = (('Archives', '%s/archives.html' % BLOGURL),
-             ('Categories', '%s/categories.html' % BLOGURL),
-             ('Tags', '%s/tags.html' % BLOGURL),)
+MENUITEMS = (('Archives', '%s/archives.html' % SITEURL),
+             ('Categories', '%s/categories.html' % SITEURL),
+             ('Tags', '%s/tags.html' % SITEURL),)
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
